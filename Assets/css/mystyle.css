@@ -349,17 +349,20 @@ h4{
   padding-left: 3px;
 }
 
-.qusbutton{
-  width: auto;
-  height: auto;
-  margin-bottom:10px;
-}
+
 
 #map{
   height: 50vh;
     width:100%;
     position: relative;
 
+}
+
+/*Section Contact Info Css*/
+.qusbutton{
+  width: auto;
+  height: 100%;
+  margin-bottom:10px;
 }
 
 .rowpad{
@@ -467,5 +470,22 @@ form {
 /* Contact form end ++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 
+
+/**/
+.plantex-logo{
+  margin-bottom: 7px;
+padding-right: 6px;
+width: 40px;
+}
+.logo{
+  padding-top: 5%;
+}
+.fooder{
+  padding-top: 2%;
+}
+.{
+  width: 20px;
+  height: 10px;
+}
 
 
