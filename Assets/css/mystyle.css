@@ -363,6 +363,7 @@ h4{
   width: auto;
   height: 100%;
   margin-bottom:10px;
+  
 }
 
 .rowpad{
@@ -467,6 +468,12 @@ form {
   border-radius: 2px ;
 }
 
+.contact-bo{
+  border-radius:5px;
+  border:solid;
+  
+}
+
 /* Contact form end ++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 
@@ -482,10 +489,6 @@ width: 40px;
 }
 .fooder{
   padding-top: 2%;
-}
-.{
-  width: 20px;
-  height: 10px;
 }
 
 
