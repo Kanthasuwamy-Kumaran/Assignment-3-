@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
 
 *{
-    margin: 0;
-    padding: 0;
+    
     box-sizing: border-box;
     font-family: Inter;
 }
@@ -16,14 +15,19 @@
 
 body {
     font-family: inter;
-    background-color: white;
-    color: black;
+    background-color: hsl(152,8%,12%);
+    color: white;
     
   }
   
-  .dark-mode {
+  /* .dark-mode {
     background-color: #0d1117;
     color: rgb(255, 255, 255);
+  } */
+
+  .light-mode{
+    background-color: rgb(255, 255, 255);
+    color: #0d1117;
   }
 
 
@@ -85,7 +89,7 @@ body {
 
 .heroimg:hover{
     /* filter: grayscale(0);
-    transform: scale(2,2); */
+    transform: scale(1.15); */
 }
 
 
@@ -156,7 +160,7 @@ h5{
 }
 .about-img:hover{
     filter: grayscale(0);
-    transform: scale(2,2);  
+    transform: scale(1.05);  
 }
 
   
@@ -316,4 +320,152 @@ h2{
   opacity: 1;
   bottom: 0;
 }
+
+.price{
+  color:#3e6553;
+  font-size:15px;
+  font-weight: bold;
+}
+
+h4{
+  padding-top: 8%;
+  font-size:16px;
+  font-weight: bolder;
+}
+
+.star{
+  padding-top:-10px;
+}
+
+.ques{
+  margin-bottom: 20px;
+  
+}
+
+.btn-primary{
+}
+
+.qus{
+  padding-left: 3px;
+}
+
+.qusbutton{
+  width: auto;
+  height: auto;
+  margin-bottom:10px;
+}
+
+#map{
+  height: 50vh;
+    width:100%;
+    position: relative;
+
+}
+
+.rowpad{
+  padding-bottom: 15px;
+}
+
+.hr-ques{
+  margin-bottom: 50px;
+}
+
+.cardpad{
+  margin-left: 5px;
+}
+
+
+
+
+
+
+/* Contact form start ++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.contactForm {
+  width: calc(100% - 20px);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+
+form {
+  width: 100%;
+  display: grid;
+  grid-gap: 30px;
+  padding-top: 20px;
+}
+
+.inputGroup {
+  width: 100%;
+  position: relative;
+}
+
+.inputGroup1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+.inputGroup2 {
+    grid-column: 2;
+    grid-row: 1;
+}
+.inputGroup3 {
+    grid-column: 1;
+    grid-row: 2;
+}
+.inputGroup4 {
+    grid-column: 2;
+    grid-row: 2;
+}
+.inputGroup5 {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+}
+.inputGroup6 {
+    grid-column: 1 / span 2;
+    grid-row: 4;
+}
+.inputGroup7 {
+    grid-column: 2;
+    grid-row: 5;
+    text-align: right;
+}
+
+
+.inputGroup__textfield {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  font-size: 13px;
+  padding: 20px;
+  border: 1px solid #FFF;
+  outline: 0;
+  border-radius: 0;
+  transition: border 0.3s ease-in-out;
+
+}
+.inputGroup__textfield:focus, .inputGroup__textfield:active {
+    border: 1px solid #D9D9D9;
+}
+
+.hf-warning {
+  position: absolute;
+  top: 0;
+  right: 0 ;
+  transform: translate(-15%, -50%);
+  background: orangered;
+  display: inline-block;
+  padding: 7px 14px ; /*!important*/
+  color: #FFFFFF ;
+  font-size: 11px ;
+  font-family: sans-serif;
+  box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.1) ;
+  border: 0 ;
+  border-radius: 2px ;
+}
+
+/* Contact form end ++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+
 
