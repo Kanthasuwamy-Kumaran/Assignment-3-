@@ -20,10 +20,7 @@ body {
     
   }
   
-  /* .dark-mode {
-    background-color: #0d1117;
-    color: rgb(255, 255, 255);
-  } */
+
 
   .light-mode{
     background-color: rgb(255, 255, 255);
@@ -32,7 +29,7 @@ body {
 
 
 
- /*  Section 1- Navbar  start --------------------------------------------------- */
+ /*  Section 1- Navbar  start+++++++++++++ */
 
 
  /* .nav-1{
@@ -52,13 +49,13 @@ body {
     
  }
 
-/*  Section 1- Navbar  end  --------------------------------------------------- */
+/*  Section 1- Navbar  end +++++++++++++++++++++++ */
 
 
 
 
 
-/* section 1 hero img start ----------------------------------------------------------*/
+/* section 1 hero img start ++++++++++++++++*/
 
 .title{
     padding: 160px 5%;
@@ -100,11 +97,11 @@ body {
     width: 100px;
 }
 
-/* section 1 hero img END ------------------------------------------------------- */
+/* section 1 hero imgage END++++++++++++++++++ */
 
 
 
-/* <!--section 2  image moving start ------------------------------------------------------> */
+/* <!--section 2  image start +++++++++ */
 
 .section-2{
     padding-bottom: 2%;
@@ -139,22 +136,22 @@ h5{
 .plant-img{
     max-width: 70%;
     padding: 50px 0%; 
-    /* float: right;  */
+  
     
 }
 
 
 
 
-/* <!--section 2 image moving end ------------------------------------------------------> */
+/*++++++section 2 image moving end +++++++++++++ */
 
 
-/* <!--section 3 imge zoom start ------------------------------------------------------> */
+/*+++++++section 3 imge zoom start +++++++++++*/
 
 .about-img{
     max-width:100%;
     padding: 20px 8%; 
-    /* height: auto;  */
+    
    
 
 }
@@ -187,12 +184,12 @@ h5{
  }
 
 
-/* <!--section 3 zoom end ------------------------------------------------------> */
+/* <!--section 3 image zoom end ++++--> */
 
 
 
 
-/* section 4 stare Image Gallery ------------------------------------------------------ */
+/* +++++section 4 stare Image Gallery ++++++++++ */
 
 h2{
     
@@ -268,7 +265,6 @@ h2{
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  /* background: rgba(192, 14, 14, 0.5); */
   position: absolute;
   left: 0;
   right: 0;
